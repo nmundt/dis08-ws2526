@@ -89,24 +89,35 @@ Bsp.: [Search for it.](www.google.com)
    
 #### **Task Lists**
 * Checkboxes
-  Mit '- [ ]' (leer) und `- [x]` (abgehakt) lassen sich To-do-Listen erstellen.
+  Mit `- [ ]` (leer) und `- [x]` (abgehakt) lassen sich To-do-Listen erstellen.
+  Bsp.:
+  - [x] Aufgabe erledigt  
+  - [ ] Aufgabe offen
 
+#### **Dividers & Layout**
+* Horizontal rules
+  Eine waagerechte Linie wird mit drei oder mehr `-`, `*` oder `_` in einer eigenen Zeile erstellt.
+  Bsp.:
+  ---
+* Line breaks
+  Ein Zeilenumbruch entsteht durch zwei Leerzeichen am Zeilenende oder durch eine leere Zeile.
 
-Dividers & Layout
+#### **Online and collaborative editors**
+* Markdown-based editors
+  Online-Editoren wie StackEdit, HackMD oder Dillinger ermöglichen das Schreiben und Formatieren in Markdown mit Live-Vorschau.
+  Änderungen werden oft automatisch gespeichert, in Echtzeit synchronisiert und können gemeinsam mit anderen bearbeitet werden.
+  Platform/Tool Specific: GitHub
 
-    Horizontal rules
-    Line breaks
+#### **Task lists**
+* Mentioning users (@username)
+  Mit @ gefolgt von dem GitHub-Nutzernamen können Sie Personen direkt ansprechen oder benachrichtigen.
+* Automatic linking of issues/PRs
+  Wenn Sie # gefolgt von einer Issue- oder Pull-Request-Nummer schreiben, verlinkt GitHub sie automatisch.
+* Emoji shortcodes
+  Emojis können Sie mit Doppelpunkten : und einem Kurzcode-Namen einfügen.
+  Bsp.:
+  😃 🐈‍⬛
 
-Online and collaborative editors
-
-    Markdown-based editors
-
-Platform/Tool Specific: GitHub
-
-    Task lists
-    Mentioning users (@username)
-    Automatic linking of issues/PRs
-    Emoji shortcodes
 
 
 
