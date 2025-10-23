@@ -12,6 +12,12 @@
 _Italic_
 * Bold:
  Setzen Sie folgendes Zeichen zu Beginn und an das Ende Ihres Textes: **
+* Strikethrough:
+ Setzen Sie zwei "~" zu begin und an das Ende Ihres Textes.
+ ~~Text~~
+* Inline Code:
+ Setzen Sie ein Backslash "`" vor ihren code. Bei ganzen Codeblöcken, setzten sie "```".
+ `www.google.com`
 
 
 #### **Listen:**
@@ -40,10 +46,13 @@ Bsp.: [Search for it.](www.google.com)
     ![Black cat] [Black]
     [Black]: link zum Bild
 
+#### **Code & Technical Content**
+
 #### **Quotes & Notes**
 
 * Blockquotes
  Um einen zitierten Text hervorzuheben müssen Sie zu Beginn ein ">" setzten.  
  Bei mehreren Paragraphen müssen Sie auch in die leeren Zeilen ein ">" setzen.
+
 
 
