@@ -16,7 +16,7 @@ _Italic_
  Setzen Sie zwei "~" zu begin und an das Ende Ihres Textes.
  ~~Text~~
 * Inline Code:
- Setzen Sie ein Backslash "`" vor ihren code. Bei ganzen Codeblöcken, setzten sie "```".
+ Setzen Sie einen rückwärts Anführungsstrich zu Beginn und an das Ende Ihres codes. Bei ganzen Codeblöcken, setzten sie drei davon "```".
  `www.google.com`
 
 
@@ -47,12 +47,23 @@ Bsp.: [Search for it.](www.google.com)
     [Black]: link zum Bild
 
 #### **Code & Technical Content**
-
+* Inline Code:
+ Setzen Sie einen rückwärts Anführungsstrich zu Beginn und an das Ende Ihres codes.
+ `www.google.com`
+* Fenced code blocks:
+ Bei ganzen Codeblöcken, setzten sie drei davon "```" zu beginn und an das Ende Ihres Codeblocks.
+ Bsp:  
+ ```
+ Text
+ Text
+ ```
+* 
 #### **Quotes & Notes**
 
 * Blockquotes
  Um einen zitierten Text hervorzuheben müssen Sie zu Beginn ein ">" setzten.  
  Bei mehreren Paragraphen müssen Sie auch in die leeren Zeilen ein ">" setzen.
+
 
 
 
