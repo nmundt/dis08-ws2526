@@ -36,8 +36,8 @@ Es gibt zwei verschiedene Link Arten in Markdown.
  Um einen Inline Link zu erstellen, fügt man den Link in folgende Klammern: []. Den Linktext fügt man in folgende Klammern: ().
 Bsp.: [Search for it.](www.google.com)
 * Reference-style link
- Für einen reference link setzt man oben im code den Namen für den Link in [] Klammern. Unten am Ende des Codes definiert man daraufhin die Namen zu den Links.
-  *Bsp.: Do you want to [see something fun][a fun place]?  
+ Für einen reference link setzt man oben im code den Namen für den Link in [] Klammern. Unten am Ende des Codes definiert man daraufhin die Namen zu den Links.  
+   * Bsp.: Do you want to [see something fun][a fun place]?  
  [a fun place]: www.zombo.com
 * Images
   *Inline image links: Setzen Sie zu Beginn ein "!". Darauf folgen "[]" Klammern, in denen der Text zum Bild steht. Zum Schluss folgen die "()" Klammern, in denen der Link zum Bild vorhanden ist.  
@@ -78,6 +78,7 @@ Bsp.: [Search for it.](www.google.com)
   Bsp.:
   | Links | Zentriert | Rechts |
   |:------|:----------:|-------:|
+  |A      |B           |C       |
 * Complex tables
   Für komplexe Tabellen nutzt man HTML-Syntax direkt im Markdown
   Bsp.:
@@ -86,10 +87,10 @@ Bsp.: [Search for it.](www.google.com)
   <tr><td>A</td><td>B</td></tr>
   </table>
    
+#### **Task Lists**
+* Checkboxes
+  Mit '- [ ]' (leer) und `- [x]` (abgehakt) lassen sich To-do-Listen erstellen.
 
-Task Lists
-
-    Checkboxes
 
 Dividers & Layout
 
@@ -106,6 +107,7 @@ Platform/Tool Specific: GitHub
     Mentioning users (@username)
     Automatic linking of issues/PRs
     Emoji shortcodes
+
 
 
 
