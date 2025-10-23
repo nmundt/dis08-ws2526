@@ -16,7 +16,7 @@ _Italic_
  Setzen Sie zwei "~" zu begin und an das Ende Ihres Textes.
  ~~Text~~
 * Inline Code:
- Setzen Sie einen rückwärts Anführungsstrich zu Beginn und an das Ende Ihres codes. Bei ganzen Codeblöcken, setzten sie drei davon "```".
+ Setzen Sie einen Backtick zu Beginn und an das Ende Ihres Codes. Bei ganzen Codeblöcken, setzten sie drei davon "```".
  `www.google.com`
 
 
@@ -48,22 +48,64 @@ Bsp.: [Search for it.](www.google.com)
 
 #### **Code & Technical Content**
 * Inline Code:
- Setzen Sie einen rückwärts Anführungsstrich zu Beginn und an das Ende Ihres codes.
+ Setzen Sie einen Backtick zu Beginn und an das Ende Ihres codes.
  `www.google.com`
 * Fenced code blocks:
- Bei ganzen Codeblöcken, setzten sie drei davon "```" zu beginn und an das Ende Ihres Codeblocks.
+ Bei ganzen Codeblöcken, setzten sie drei Backticks "```" zu Beginn und an das Ende Ihres Codeblocks.
  Bsp:  
  ```
  Text
  Text
  ```
-* 
+
 #### **Quotes & Notes**
 
 * Blockquotes
  Um einen zitierten Text hervorzuheben müssen Sie zu Beginn ein ">" setzten.  
  Bei mehreren Paragraphen müssen Sie auch in die leeren Zeilen ein ">" setzen.
 
+#### **Tables**
+* Basic tables
+  Mit senkrechten Strichen "|" und Bindestrichen `-` werden Spalten und Überschriften getrennt.
+  Bsp.:
+  | Name | Alter |
+  |------|-------|
+  | Lea  | 21    |
+  | Tom  | 25    |
+* Alignment
+  Sie können den Text in Spalten links, zentriert oder rechts ausrichten, indem Sie Doppelpunkte (:) in der Trennzeile nutzen.
+  Die Bindestriche - zeigen die Spalte an, die Doppelpunkte bestimmen die Ausrichtung:  
+  Bsp.:
+  | Links | Zentriert | Rechts |
+  |:------|:----------:|-------:|
+* Complex tables
+  Für komplexe Tabellen nutzt man HTML-Syntax direkt im Markdown
+  Bsp.:
+  <table>
+  <tr><th colspan="2">Überschrift</th></tr>
+  <tr><td>A</td><td>B</td></tr>
+  </table>
+   
+
+Task Lists
+
+    Checkboxes
+
+Dividers & Layout
+
+    Horizontal rules
+    Line breaks
+
+Online and collaborative editors
+
+    Markdown-based editors
+
+Platform/Tool Specific: GitHub
+
+    Task lists
+    Mentioning users (@username)
+    Automatic linking of issues/PRs
+    Emoji shortcodes
 
 
 
