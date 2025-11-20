@@ -62,5 +62,5 @@ Please extend and reuse the code snippet such that the following details can be 
 Provide your answers in a Jupyter notebook called `parse.ipynb`.
 
 > [!IMPORTANT]
-> - Commit ither a Markdown file `parse_contacts.md` or a bash script `parse_contacts.sh` that contains the regex expressions and commands to parse the contacts from `csv/contacts.csv`. 
+> - Commit either a Markdown file `parse_contacts.md` or a bash script `parse_contacts.sh` that contains the regex expressions and commands to parse the contacts from `csv/contacts.csv`. 
 > - Commit an executable Jupyter notebook `parse.ipynb` that gives answers to the questions about the ordered products.
